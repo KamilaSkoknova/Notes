@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+    color: $primary-color;
+    font-weight: 600;
+    transition: 4s;
+
+    &:hover {
+        color: $primary-color-darker;
+        transition: 3s;
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+
+.primary-color {
+    color: $primary-color;
+}
+
+.white-color {
+    color: $white;
+}

@@ -1,0 +1,25 @@
+ul {
+    margin-right: 2rem;
+
+    li{
+        padding: 10px 0;
+        list-style: none;
+        border-bottom: 1px solid $primary-color;
+
+        &.page-item {
+            border-bottom: none;
+
+            .page-link {
+                color: $primary-color;
+            }
+    
+            &.active {
+                .page-link {
+                    color: white;
+                    background-color: $primary-color-darker;
+                    border: $primary-color-darker;
+                }
+            }
+        }
+    }
+}

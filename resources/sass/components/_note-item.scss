@@ -1,0 +1,67 @@
+.note-item {
+    background-color: transparent;
+    border: 1px solid $white;
+    height: 250px;
+    width: 100%;
+    transition: 4s;
+    border-radius: 10px;
+
+    &__header {
+        padding: 20px 20px 0;
+        height: 210px;
+        transition: 5s;
+    }
+
+    &__btn {
+        padding: 0;
+        text-align: center;
+        height: 40px;
+    }
+
+    &:hover {
+        background-color: $primary-color-darker;
+        border: $primary-color;
+        border-radius: 10px;
+        transition: 2s;
+        border-radius: 0px;
+
+        h2, a {
+            color: $white;
+            transition: 3s;
+            text-transform: capitalize;
+        }
+
+    }
+
+    &-whole {
+        padding: 20px;
+
+        &__main {
+            background-color: $body-bg;
+            padding: 30px 40px;
+
+            &-header {
+                h1 {
+                    line-height: 60px;
+                    text-transform: capitalize;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        display: block;
+                        width: 30px;
+                        height: 2px;
+                        background: $primary-color;
+                    }
+                }
+            }
+
+            &-perex {
+                padding: 10px 0;
+                h6 {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

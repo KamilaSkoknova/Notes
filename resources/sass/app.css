@@ -1,0 +1,198 @@
+@import url("https://fonts.bunny.net/css?family=Nunito");
+@import 'bootstrap/dist/css/bootstrap.css';
+.logo-small {
+  margin-bottom: 30px;
+}
+.logo-small img {
+  width: auto;
+  height: 10vh;
+}
+
+.guest-section {
+  padding-top: 20vh;
+}
+.guest-section__form {
+  margin-left: 10%;
+  width: 80%;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 3px;
+}
+
+.btn-form {
+  background-color: #fff;
+  transition: 4s;
+}
+.btn-form:hover {
+  background-color: rgb(252, 190, 252);
+  transition: 3s;
+}
+
+.btn-admin {
+  background-color: transparent;
+  border: none;
+  text-align: right;
+}
+.btn-admin i {
+  font-size: 17px;
+  color: rgb(171, 0, 171);
+}
+
+.btn-guest {
+  background-color: rgb(171, 0, 171);
+  color: #fff;
+  transition: 2s;
+  border-radius: 0;
+}
+.btn-guest:hover {
+  border-radius: 3px;
+  background-color: rgb(122, 1, 122);
+  transition: 2s;
+  color: #fff;
+}
+
+.frontpage {
+  padding-top: 8vh;
+}
+.frontpage__text {
+  padding: 50px;
+}
+.frontpage__text-header {
+  padding-bottom: 20px;
+}
+.frontpage__text-header h1 {
+  font-size: 12rem;
+  text-align: center;
+  -webkit-text-stroke: 2px white;
+  position: relative;
+  text-transform: uppercase;
+  color: rgb(255, 166, 255);
+  letter-spacing: 1.2vw;
+  font-weight: 700;
+  text-shadow: 0 1px 0 #f800f8, -1px -1px 0 #f800f8, -1px 0px 0 #ca00ca, -2px 1px 0 #ca00ca, -3px 2px 0 #c500c5, -4px 3px 0 #bf00bf, -5px 4px 0 #ba00ba, -6px 5px 0 #b500b5, -7px 6px 0 #b000b0, -8px 7px 0 rgb(171, 0, 171), -9px 8px 0 #a600a6, -10px 9px 0 #a100a1, -11px 10px 0 #9c009c, -12px 11px 0 #970097, -13px 12px 0 #920092, -14px 13px 0 #8c008c, -15px 14px 0 #870087, -16px 15px 0 #820082, 0 -1px 1px rgb(252, 190, 252), 0 -2px 0px rgb(252, 190, 252), -15px 14px 0px rgb(252, 190, 252), -16px 15px 0px rgb(252, 190, 252), -17px 16px 0px rgb(252, 190, 252), -18px 17px 0px rgb(252, 190, 252), -2px -1px 0 rgb(252, 190, 252), -3px 0px 0 rgb(252, 190, 252), -19px 15px 0 rgb(252, 190, 252), -18px 14px 0 rgb(252, 190, 252), -17px 13px 0 rgb(252, 190, 252), -16px 12px 0 rgb(252, 190, 252), -15px 11px 0 rgb(252, 190, 252), -14px 10px 0 rgb(252, 190, 252), -13px 9px 0 rgb(252, 190, 252), -12px 8px 0 rgb(252, 190, 252), -11px 7px 0 rgb(252, 190, 252), -10px 6px 0 rgb(252, 190, 252), -9px 5px 0 rgb(252, 190, 252), -8px 4px 0 rgb(252, 190, 252), -7px 3px 0 rgb(252, 190, 252), -6px 2px 0 rgb(252, 190, 252), -5px 1px 0 rgb(252, 190, 252), -4px 0px 0 rgb(252, 190, 252), 0px 2px 0px rgb(252, 190, 252), -1px 3px 0px rgb(252, 190, 252), -2px 4px 0px rgb(252, 190, 252), -3px 5px 0px rgb(252, 190, 252), -4px 6px 0px rgb(252, 190, 252), -5px 7px 0px rgb(252, 190, 252), -6px 8px 0px rgb(252, 190, 252), -7px 9px 0px rgb(252, 190, 252), -8px 10px 0px rgb(252, 190, 252), -9px 11px 0px rgb(252, 190, 252), -10px 12px 0px rgb(252, 190, 252), -11px 13px 0px rgb(252, 190, 252), -12px 14px 0px rgb(252, 190, 252), -13px 15px 0px rgb(252, 190, 252), -14px 16px 0px rgb(252, 190, 252), -15px 17px 0px rgb(252, 190, 252);
+}
+.frontpage__text-details h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(122, 1, 122);
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .frontpage__text-header h1 {
+    font-size: 80px;
+  }
+}
+.notes-bg {
+  background: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgb(238, 255, 0), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  min-height: 100vh;
+}
+
+.bg-white {
+  background-color: #fff;
+  padding: 10px 0;
+  border-radius: 3px;
+}
+
+.notes-where {
+  padding: 10vh 0;
+}
+
+ul {
+  margin-right: 2rem;
+}
+ul li {
+  padding: 10px 0;
+  list-style: none;
+  border-bottom: 1px solid rgb(171, 0, 171);
+}
+ul li.page-item {
+  border-bottom: none;
+}
+ul li.page-item .page-link {
+  color: rgb(171, 0, 171);
+}
+ul li.page-item.active .page-link {
+  color: white;
+  background-color: rgb(122, 1, 122);
+  border: rgb(122, 1, 122);
+}
+
+.note-item {
+  background-color: transparent;
+  border: 1px solid #fff;
+  height: 250px;
+  width: 100%;
+  transition: 4s;
+  border-radius: 10px;
+}
+.note-item__header {
+  padding: 20px 20px 0;
+  height: 210px;
+  transition: 5s;
+}
+.note-item__btn {
+  padding: 0;
+  text-align: center;
+  height: 40px;
+}
+.note-item:hover {
+  background-color: rgb(122, 1, 122);
+  border: rgb(171, 0, 171);
+  border-radius: 10px;
+  transition: 2s;
+  border-radius: 0px;
+}
+.note-item:hover h2, .note-item:hover a {
+  color: #fff;
+  transition: 3s;
+  text-transform: capitalize;
+}
+.note-item-whole {
+  padding: 20px;
+}
+.note-item-whole__main {
+  background-color: #f8fafc;
+  padding: 30px 40px;
+}
+.note-item-whole__main-header h1 {
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.note-item-whole__main-header h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: rgb(171, 0, 171);
+}
+.note-item-whole__main-perex {
+  padding: 10px 0;
+}
+.note-item-whole__main-perex h6 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(171, 0, 171);
+  font-weight: 600;
+  transition: 4s;
+}
+a:hover {
+  color: rgb(122, 1, 122);
+  transition: 3s;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.primary-color {
+  color: rgb(171, 0, 171);
+}
+
+.white-color {
+  color: #fff;
+}/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,19 @@
+.logo-small {
+    margin-bottom: 30px;
+    img {
+        width: auto;
+        height: 10vh;
+    }
+}
+
+.guest-section {
+    padding-top: 20vh;
+
+    &__form {
+        margin-left: 10%;
+        width: 80%;
+        background-color: $white;
+        padding: 50px;
+        border-radius: 3px;
+    }
+}
